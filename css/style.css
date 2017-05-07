@@ -147,7 +147,7 @@ a {
       padding: 20px 0;
       width: 600px; } }
   .contents__name {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     font-size: 1.2rem;
     font-weight: 200;
     letter-spacing: .6rem;
@@ -155,7 +155,7 @@ a {
     text-align: center; }
     @media screen and (min-width: 768px) {
       .contents__name {
-        margin-bottom: 40px;
+        margin-bottom: 32px;
         font-size: 1.8rem;
         letter-spacing: 1.3rem;
         text-indent: 1.6rem; } }
