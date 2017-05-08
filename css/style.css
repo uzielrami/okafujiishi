@@ -161,6 +161,7 @@ a {
         text-indent: 1.6rem; } }
   .contents__mainLogo {
     margin-bottom: 60px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +177,7 @@ a {
     @media screen and (min-width: 768px) {
       .contents__logoBlock {
         margin-bottom: 40px;
-        width: 500px; } }
+        width: 520px; } }
   .contents__logoChar {
     display: block;
     font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, sans-serif;
@@ -185,7 +186,8 @@ a {
     line-height: 1; }
     @media screen and (min-width: 768px) {
       .contents__logoChar {
-        font-size: 15rem; } }
+        font-size: 15rem;
+        font-weight: 300; } }
   .contents__title {
     display: block;
     line-height: 1;
