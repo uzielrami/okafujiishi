@@ -5,7 +5,7 @@ var firstScript = document.getElementsByTagName("script")[0];
 firstScript.parentNode.insertBefore(script, firstScript);
 
 var player;
-var vid = "Mb6t_VPEEKE";
+var vid = "dSUWmdVt6rs";
 var maxTime = 320,
     startTime = Math.ceil((Math.random() * maxTime));
 
