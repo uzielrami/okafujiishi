@@ -9,6 +9,17 @@ body {
 
 a {
   text-decoration: none; }
+  @media screen and (min-width: 768px) {
+    a {
+      transition: all .2s ease; }
+      a:hover {
+        opacity: .8; } }
+
+@media screen and (min-width: 768px) {
+  button {
+    transition: all .2s ease; }
+    button:hover {
+      opacity: .8; } }
 
 .page {
   background-color: #000; }
@@ -146,6 +157,14 @@ a {
     .contents {
       padding: 20px 0;
       width: 600px; } }
+  .contents__link {
+    display: block;
+    margin-bottom: 60px; }
+    @media screen and (min-width: 768px) {
+      .contents__link {
+        margin-bottom: 120px; } }
+  .contents__name, .contents__mainLogo {
+    color: #fff; }
   .contents__name {
     margin-bottom: 24px;
     font-size: 1.2rem;
@@ -160,15 +179,11 @@ a {
         letter-spacing: 1.3rem;
         text-indent: 1.6rem; } }
   .contents__mainLogo {
-    margin-bottom: 60px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: 300; }
-    @media screen and (min-width: 768px) {
-      .contents__mainLogo {
-        margin-bottom: 120px; } }
   .contents__logoBlock {
     margin-bottom: 32px;
     display: flex;

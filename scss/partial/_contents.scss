@@ -12,6 +12,17 @@
     padding: 20px 0;
     width: 600px;
   }
+  &__link {
+    display: block;
+    margin-bottom: 60px;
+    @include mq() {
+      margin-bottom: 120px;
+    }
+  }
+  &__name,
+  &__mainLogo {
+    color: $white-l;
+  }
   &__name {
     margin-bottom: 24px;
     font: {
@@ -29,16 +40,12 @@
     }
   }
   &__mainLogo {
-    margin-bottom: 60px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     font: {
       weight: 300;
-    }
-    @include mq() {
-      margin-bottom: 120px;
     }
   }
   &__logoBlock {
