@@ -6,15 +6,21 @@
   position: relative;
   color: $white-l;
   &--top {
-    padding-top: 40px;
+    padding: 0;
+    width: 96vmin;
+    height: 96vmin;
+    justify-content: center;
   }
   @include mq() {
-    padding: 20px 0;
     width: 600px;
+    &--top {
+      width: 96vmin;
+    }
   }
   &__link {
-    display: block;
     margin-bottom: 60px;
+    display: block;
+    width: 100%;
     @include mq() {
       margin-bottom: 120px;
     }
@@ -26,17 +32,14 @@
   &__name {
     margin-bottom: 24px;
     font: {
-      size: 1.2rem;
+      size: 5vmin;
       weight: 200;
     }
-    letter-spacing: .6rem;
+    letter-spacing: 1.8vmin;
     text-indent: .8rem;
     text-align: center;
     @include mq() {
       margin-bottom: 32px;
-      font-size: 1.8rem;
-      letter-spacing: 1.3rem;
-      text-indent: 1.6rem;
     }
   }
   &__mainLogo {
@@ -52,39 +55,28 @@
     margin-bottom: 32px;
     display: flex;
     justify-content: space-between;
-    width: 280px;
-    @include mq() {
-      margin-bottom: 40px;
-      width: 520px;
-    }
+    width: 100%;
   }
   &__logoChar {
     display: block;
     font: {
       family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, sans-serif;
-      size: 8rem;
+      size: 26vmin;
       weight: 400;
     }
     line-height: 1;
     @include mq() {
-      font: {
-        size: 15rem;
-        weight: 300;
-      }
+      font-weight: 300;
     }
   }
   &__title {
     display: block;
     line-height: 1;
     text-align: center;
-    letter-spacing: 1rem;
+    letter-spacing: 3vmin;
     font: {
-      size: 1.6rem;
+      size: 5vmin;
       weight: 600;
-    }
-    @include mq() {
-      font-size: 2rem;
-      letter-spacing: 2rem;
     }
   }
   &__text {
@@ -124,8 +116,5 @@
   }
   &__nav {
     width: 100%;
-    @include mq() {
-      width: 500px;
-    }
   }
 }

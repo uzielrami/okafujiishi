@@ -10,12 +10,9 @@
   &__text {
     color: $white-l;
     font: {
-      size: 1.6rem;
+      size: 5vmin;
       weight: 600;
     }
     letter-spacing: .1rem;
-    @include mq() {
-      font-size: 2rem;
-    }
   }
 }
