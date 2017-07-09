@@ -159,61 +159,15 @@ a {
       width: 600px; } }
   .contents__link {
     display: block;
-    margin-bottom: 60px; }
+    margin-bottom: 40px; }
     @media screen and (min-width: 768px) {
       .contents__link {
-        margin-bottom: 120px; } }
-  .contents__name, .contents__mainLogo {
-    color: #fff; }
-  .contents__name {
-    margin-bottom: 24px;
-    font-size: 1.2rem;
-    font-weight: 200;
-    letter-spacing: .6rem;
-    text-indent: .8rem;
-    text-align: center; }
-    @media screen and (min-width: 768px) {
-      .contents__name {
-        margin-bottom: 32px;
-        font-size: 1.8rem;
-        letter-spacing: 1.3rem;
-        text-indent: 1.6rem; } }
-  .contents__mainLogo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 300; }
-  .contents__logoBlock {
-    margin-bottom: 32px;
-    display: flex;
-    justify-content: space-between;
-    width: 280px; }
-    @media screen and (min-width: 768px) {
-      .contents__logoBlock {
-        margin-bottom: 40px;
-        width: 520px; } }
-  .contents__logoChar {
-    display: block;
-    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", YuGothic, sans-serif;
-    font-size: 8rem;
-    font-weight: 400;
-    line-height: 1; }
-    @media screen and (min-width: 768px) {
-      .contents__logoChar {
-        font-size: 15rem;
-        font-weight: 300; } }
+        margin-bottom: 100px;
+        width: 100%; } }
   .contents__title {
-    display: block;
-    line-height: 1;
-    text-align: center;
-    letter-spacing: 1rem;
-    font-size: 1.6rem;
-    font-weight: 600; }
-    @media screen and (min-width: 768px) {
-      .contents__title {
-        font-size: 2rem;
-        letter-spacing: 2rem; } }
+    width: 100%; }
+  .contents__img {
+    width: 100%; }
   .contents__text {
     margin-bottom: 4px;
     text-align: center; }
@@ -245,7 +199,7 @@ a {
     width: 100%; }
     @media screen and (min-width: 768px) {
       .contents__nav {
-        width: 500px; } }
+        width: 600px; } }
 
 .navList {
   list-style: none;
@@ -269,7 +223,7 @@ a {
     letter-spacing: .1rem; }
     @media screen and (min-width: 768px) {
       .navButton__text {
-        font-size: 2rem; } }
+        font-size: 2.4rem; } }
 
 .mainDesc__title {
   margin-bottom: 12px;
