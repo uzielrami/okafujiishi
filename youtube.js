@@ -54,36 +54,4 @@ function onPlayerStateChange(event) {
 }
 
 $(function() {
-  $("#js-ytPlay").on("click", function() {
-    if(playerReady) {
-      player.playVideo();
-      $(this).css({
-        "opacity": 0,
-        "pointer-events": "none"
-      });
-      $("#js-ytPause").css({
-        "opacity": 1,
-        "pointer-events": "all"
-      });
-      $("#js-youtube").css({
-        "opacity": 1
-      });
-    }
-  });
-  $('#js-ytPause').click(function() {
-    if(playerReady) {
-      player.pauseVideo();
-      $(this).css({
-        "opacity": 0,
-        "pointer-events": "none"
-      });
-      $("#js-ytPlay").css({
-        "opacity": 1,
-        "pointer-events": "all"
-      });
-      $("#js-youtube").css({
-        "opacity": .5
-      });
-    }
-  });
 });

@@ -29,11 +29,6 @@ a {
     top: 0;
     left: 0;
     z-index: 1; }
-  .page__videoController {
-    position: fixed;
-    top: 4px;
-    right: 8px;
-    z-index: 2; }
   .page__contents {
     display: flex;
     justify-content: center;
@@ -86,45 +81,6 @@ a {
       .header__logo {
         font-size: 2rem;
         margin-bottom: 0; } }
-
-.videoController {
-  position: relative; }
-  .videoController__button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: all .5s ease;
-    width: 28px;
-    height: 28px;
-    text-indent: -9999px;
-    outline: none; }
-    .videoController__button::before, .videoController__button::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border-radius: 1px; }
-    .videoController__button--play {
-      opacity: 0;
-      pointer-events: none; }
-      .videoController__button--play::before {
-        border-style: solid;
-        border-width: 8px 20px;
-        border-color: transparent;
-        border-left-color: #fff;
-        margin-left: 10px; }
-    .videoController__button--pause {
-      opacity: 1; }
-      .videoController__button--pause::before, .videoController__button--pause::after {
-        width: 6px;
-        height: 20px;
-        background-color: #fff; }
-      .videoController__button--pause::before {
-        margin-left: -6px; }
-      .videoController__button--pause::after {
-        margin-left: 6px; }
 
 .globalNavList {
   display: flex;
@@ -399,3 +355,5 @@ a {
   opacity: 0; }
   .js-youtube.show {
     opacity: 1; }
+  .js-youtube.dark {
+    opacity: .1; }

@@ -27,6 +27,23 @@
     });
   }
 
+  $(window).scroll(function() {
+    var $conceptDescription = $("#conceptDescription");
+
+    if (! $conceptDescription.length) {
+      return;
+    }
+
+    var windowTop = $(this).scrollTop(),
+        conceptDescriptionTop = $conceptDescription.offset().top;
+
+    if (windowTop > conceptDescriptionTop * (1 / 2)) {
+      $(".js-youtube").addClass("dark");
+    } else {
+      $(".js-youtube").removeClass("dark");
+    }
+  });
+
   resizeYoutube();
   $(window).resize(function() {
     resizeYoutube();
