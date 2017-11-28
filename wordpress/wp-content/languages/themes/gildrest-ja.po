@@ -1,0 +1,164 @@
+# Translation of Themes - GildRest in Japanese
+# This file is distributed under the same license as the Themes - GildRest package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-21 04:03:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - GildRest\n"
+
+#. Description of the plugin/theme
+msgid "It is a WordPress theme for restaurant."
+msgstr "飲食店向けの WordPress 公式テーマ。"
+
+#. Theme Name of the plugin/theme
+msgid "GildRest"
+msgstr "GildRest"
+
+#: template-parts/common/prev-next.php:46
+msgid "Back to Home"
+msgstr "ホームへ戻る"
+
+#: template-parts/common/articles-normal.php:28
+msgid "READ MORE"
+msgstr "続きを読む"
+
+#: template-parts/common/articles-none.php:1
+msgid "No posts"
+msgstr "投稿がありません"
+
+#: template-parts/common/archive-title.php:67
+msgid "Sorry, Page Not Found."
+msgstr "ページが見つかりません。"
+
+#: template-parts/common/archive-title.php:66
+msgid "404 NOT FOUND"
+msgstr "404 見つかりません"
+
+#: template-parts/common/archive-title.php:60
+msgid "Author Archives"
+msgstr "著者アーカイブ"
+
+#: template-parts/common/archive-title.php:59
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: template-parts/common/archive-title.php:53
+msgid "Yearly Archives"
+msgstr "年別アーカイブ"
+
+#: template-parts/common/archive-title.php:52
+msgid "Y"
+msgstr "Y年"
+
+#: template-parts/common/archive-title.php:46
+msgid "Monthly Archives"
+msgstr "月別アーカイブ"
+
+#: template-parts/common/archive-title.php:45
+msgid "F, Y"
+msgstr "Y年F"
+
+#: template-parts/common/archive-title.php:39
+msgid "Daily Archives"
+msgstr "日別アーカイブ"
+
+#: template-parts/common/archive-title.php:38
+msgid "jS F, Y"
+msgstr "Y年Fj日"
+
+#: template-parts/common/archive-title.php:29
+msgid "Search Results"
+msgstr "検索結果"
+
+#: template-parts/common/archive-title.php:17
+msgid "Tag"
+msgstr "タグ"
+
+#: template-parts/common/archive-title.php:5
+msgid "Category"
+msgstr "カテゴリー"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "検索"
+
+#: search.php:23
+msgid "No Results Found."
+msgstr "結果に一致するものがありません。"
+
+#: lib/widgets.php:18
+msgid "Bottom Widget area"
+msgstr "下部ウィジェットエリア"
+
+#: lib/widgets.php:16
+msgid "Bottom Widget"
+msgstr "下部ウィジェット"
+
+#: lib/widgets.php:6
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: lib/comment-list.php:30
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: lib/comment-list.php:25
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: lib/comment-list.php:21
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: lib/comment-list.php:17
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: footer.php:13
+msgid "Gild Themes"
+msgstr "Gild テーマ"
+
+#: footer.php:12
+msgid ". Theme by "
+msgstr ". Theme by"
+
+#: footer.php:11
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:10
+msgid "Proudly powered by "
+msgstr "Proudly powered by "
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:80
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:70
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:28
+msgid "Pingbacks"
+msgstr "ピンバック"
+
+#: comments.php:14
+msgid "Comments"
+msgstr "コメント"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/shoyamane"
+msgstr "https://profiles.wordpress.org/shoyamane"
+
+#. Author of the plugin/theme
+msgid "ShoYamane"
+msgstr "山根 翔"
