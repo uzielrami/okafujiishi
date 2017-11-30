@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: {
+    family: Garamond, "Hiragino Mincho ProN", YuMincho, "HGP明朝B", serif;
+    weight: 200;
+  }
+  color: $white-l;
+}
+
+a {
+  color: $white-l;
+  text-decoration: none;
+  @include mq() {
+    transition: all .2s ease;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+button {
+  @include mq() {
+    transition: all .2s ease;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
