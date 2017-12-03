@@ -36,6 +36,14 @@
       align-items: center;
       background: none;
     }
+    &--article {
+      padding: 0 20px 60px;
+      display: block;
+      @include mq() {
+        padding: 0 0 60px 0;
+        display: flex;
+      }
+    }
   }
   &__video {
     width: 100vw;

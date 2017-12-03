@@ -1,0 +1,126 @@
+.article {
+  @include mq() {
+    width: 600px;
+  }
+  &__title {
+    margin-bottom: 20px;
+    font: {
+      size: 3.2rem;
+      weight: 200;
+    }
+    line-height: 1.2;
+  }
+  &__content {
+    &:not(:last-of-type) {
+      margin-bottom: 20px;
+    }
+  }
+  &__date {
+    font-size: 1.2rem;
+  }
+  &__prevNext {
+    margin: 0 -20px;
+    @include mq() {
+      margin: 0;
+    }
+    &::before,
+    &::after {
+      content: "";
+      display: table;
+    }
+    &::after {
+      clear: both;
+    }
+  }
+  &__prev,
+  &__next {
+    width: 50%;
+    @include mq() {
+      width: 160px;
+    }
+    display: block;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      display: block;
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: {
+        top: 1px solid $white-l;
+        right: 1px solid $white-l;
+      }
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+    }
+  }
+  &__prev {
+    float: left;
+    @include mq() {
+      border-radius: 8px 0 0 8px;
+    }
+    &::before {
+      left: 8px;
+      transform: translateY(-50%) rotate(-135deg);
+    }
+    &::after {
+      display: block;
+      content: "";
+      height: 64px;
+      width: 1px;
+      background-color: rgba($white-l, .4);
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(50%, -50%);
+      @include mq() {
+        display: none;
+      }
+    }
+  }
+  &__next {
+    float: right;
+    @include mq() {
+      border-radius: 0 8px 8px 0;
+    }
+    &::before {
+      right: 8px;
+      transform: translateY(-50%) rotate(45deg);
+    }
+  }
+  &__prevNextImgWrapper {
+    height: 80px;
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(90deg, $black-d 0, rgba($black-d, .2) 50%, $black-d 100%);
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__prevNextTitle {
+    max-width: calc(100% - 32px);
+    position: absolute;
+    top: 8px;
+    font: {
+      size: 1.2rem;
+      weight: 300;
+    }
+    &--prev {
+      left: 20px;
+    }
+    &--next {
+      right: 20px;
+    }
+  }
+}
