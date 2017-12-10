@@ -26,14 +26,15 @@
   }
   &__contents {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
     &:last-of-type {
       padding-bottom: 60px;
     }
     &--top {
       height: 100vh;
-      align-items: center;
+      justify-content: center;
       background: none;
     }
     &--article {
@@ -45,6 +46,23 @@
       }
     }
   }
+  &__content {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    width: 100%;
+    @include mq() {
+      width: 600px;
+      &--card {
+        width: 100%;
+      }
+    }
+    @include mq(pc) {
+      &--card {
+        width: 1048px;
+      }
+    }
+  }
   &__video {
     width: 100vw;
     height: 100vh;
@@ -52,6 +70,14 @@
     top: 0;
     left: 0;
     z-index: -1;
+  }
+  &__categoryTitle {
+    padding: 0 20px;
+    width: 100%;
+    font: {
+      size: 3.2rem;
+      weight: 300;
+    }
   }
   &__footer {
     margin-top: 100px;

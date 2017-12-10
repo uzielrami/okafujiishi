@@ -27,7 +27,7 @@ Template Name: Top
             </a>
           </li>
           <li class="navList__item">
-            <a class="navButton navButton--disabled" href="#">
+            <a class="navButton" href="/category/works">
               <p class="navButton__text">WORKS</p>
             </a>
           </li>

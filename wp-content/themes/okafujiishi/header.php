@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <meta name="format-detection" content="telephone=no">
-  <title><?php if (! is_front_page()): wp_title('-', true, 'right'); endif; ?><?php bloginfo('name'); ?></title>
+  <title><?php if (! is_front_page()): wp_title('ー', true, 'right'); endif; ?><?php bloginfo('name'); ?></title>
   <?php wp_head(); ?>
 </head>
 <body <?php body_class('page'); ?>>
@@ -22,7 +22,7 @@
               <a class="globalNavList__link" href="/about">ABOUT</a>
             </li>
             <li class="globalNavList__item">
-              <a class="globalNavList__link globalNavList__link--disabled" href="#">WORKS</a>
+              <a class="globalNavList__link" href="/category/works">WORKS</a>
             </li>
           </ul>
         </nav>
