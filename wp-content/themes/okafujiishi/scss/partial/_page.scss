@@ -16,12 +16,16 @@
     }
   }
   &__main {
+    min-height: calc(100vh - 66px - 180px);
     &--top {
       position: relative;
       top: -96px;
       @include mq() {
         top: -66px;
       }
+    }
+    &--isAdmin {
+      min-height: calc(100vh - 32px - 66px - 180px);
     }
   }
   &__contents {

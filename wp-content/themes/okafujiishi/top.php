@@ -5,7 +5,7 @@ Template Name: Top
 ?>
 
 <?php get_header(); ?>
-<main class="page__main page__main--top">
+<main class="page__main page__main--top<?php if (is_admin_bar_showing()): ?> page__main--isAdmin<?php endif; ?>">
   <div class="page__video">
     <div class="js-youtube" id="js-youtube"></div>
   </div><!-- /.page__video -->

@@ -39,12 +39,16 @@ img {
     @media screen and (min-width: 783px) {
       .page__header--isAdmin {
         top: 32px; } }
-  .page__main--top {
-    position: relative;
-    top: -96px; }
-    @media screen and (min-width: 768px) {
-      .page__main--top {
-        top: -66px; } }
+  .page__main {
+    min-height: calc(100vh - 66px - 180px); }
+    .page__main--top {
+      position: relative;
+      top: -96px; }
+      @media screen and (min-width: 768px) {
+        .page__main--top {
+          top: -66px; } }
+    .page__main--isAdmin {
+      min-height: calc(100vh - 32px - 66px - 180px); }
   .page__contents {
     display: flex;
     align-items: center;
@@ -624,6 +628,17 @@ img {
       border: 1px solid rgba(255, 255, 255, 0.4);
       border-radius: 4px;
       font-size: 1.2rem; }
+
+.error {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .error__text {
+    font-size: 1.6rem; }
+    .error__text:not(:last-of-type) {
+      margin-bottom: 20px; }
 
 .footer {
   padding: 20px;

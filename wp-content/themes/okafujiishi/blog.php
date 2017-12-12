@@ -11,7 +11,7 @@ query_posts( $args );
 ?>
 
 <?php get_header(); ?>
-<main class="page__main">
+<main class="page__main<?php if (is_admin_bar_showing()): ?> page__main--isAdmin<?php endif; ?>">
   <div class="page__video">
     <div class="js-youtube dark" id="js-youtube"></div>
   </div><!-- /.page__video -->
