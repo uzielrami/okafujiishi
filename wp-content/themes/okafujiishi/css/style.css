@@ -29,6 +29,7 @@ img {
   background-color: #000; }
   .page__header {
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
