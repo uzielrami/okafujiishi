@@ -9,7 +9,7 @@ Template Name: Top
   <div class="page__video">
     <div class="js-youtube" id="js-youtube"></div>
   </div><!-- /.page__video -->
-  <section class="page__contents page__contents--top<?php if (is_admin_bar_showing()): ?> page__contents--isAdmin<?php endif; ?>">
+  <section class="page__contents page__contents--top">
     <div class="contents contents--top">
       <a class="contents__link" href="/">
       <h1 class="contents__title" name="岡藤石"><img class="contents__img" src="<?php echo get_template_directory_uri() . '/img/mainLogo.svg' ?>" alt="岡藤石"></h1>
