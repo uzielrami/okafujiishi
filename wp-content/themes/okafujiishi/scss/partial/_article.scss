@@ -64,20 +64,6 @@
       left: 8px;
       transform: translateY(-50%) rotate(-135deg);
     }
-    &::after {
-      display: block;
-      content: "";
-      height: 64px;
-      width: 1px;
-      background-color: rgba($white-l, .4);
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translate(50%, -50%);
-      @include mq() {
-        display: none;
-      }
-    }
   }
   &__next {
     float: right;

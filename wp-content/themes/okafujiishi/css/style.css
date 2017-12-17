@@ -448,19 +448,6 @@ img {
   .article__prev::before {
     left: 8px;
     transform: translateY(-50%) rotate(-135deg); }
-  .article__prev::after {
-    display: block;
-    content: "";
-    height: 64px;
-    width: 1px;
-    background-color: rgba(255, 255, 255, 0.4);
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(50%, -50%); }
-    @media screen and (min-width: 768px) {
-      .article__prev::after {
-        display: none; } }
 
 .article__next {
   float: right; }
