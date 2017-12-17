@@ -9,7 +9,7 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class('page'); ?>>
-<header class="page__header<?php if (is_admin_bar_showing()): ?> page__header--isAdmin<?php endif; ?><?php if (is_front_page()): ?> js-toggleHeader<? endif; ?>"<?php if (is_front_page()): ?> id="js-toggleHeader"<?php endif; ?>>
+  <header class="page__header<?php if (is_admin_bar_showing()): ?> page__header--isAdmin<?php endif; ?><?php if (is_front_page()): ?> js-toggleHeader<?php endif; ?>"<?php if (is_front_page()): ?> id="js-toggleHeader"<?php endif; ?>>
     <div class="header">
       <div class="header__flexWrapper">
         <a class="header__logo" href="/">岡藤石</a>
