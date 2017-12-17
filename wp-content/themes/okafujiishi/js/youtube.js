@@ -48,7 +48,7 @@ function onPlayerStateChange(event) {
   if (status == 1) {
     document.getElementById("js-youtube").classList.add("show");
   }
-  if (status == 1) {
+  if (status == 2) {
     player.playVideo();
   }
   if (status == 3) {
