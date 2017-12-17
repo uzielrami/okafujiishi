@@ -1,7 +1,7 @@
 <?php
 
 if ( ! function_exists( 'okafujiishi_custom_excerpt_more' ) ) {
-  function gildrest_custom_excerpt_more($more) {
+  function okafujiishi_custom_excerpt_more($more) {
     return '';
   }
 }
